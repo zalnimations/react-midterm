@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { add } from "./calculator";
+import { add, subtract } from "./calculator";
 
 describe("Calculator addition", () => {
 	it("adds two positive numbers", () => {
