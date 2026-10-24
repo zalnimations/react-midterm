@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { add } from "./calculator";
+import { add, subtract } from "./calculator";
 
 export default function App() {
 	const [first, setFirst] = useState("");
