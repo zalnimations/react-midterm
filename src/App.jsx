@@ -34,6 +34,9 @@ export default function App() {
 			<button onClick={() => setResult(add(first, second))}>
 			Add Numbers
 			</button>
+			<button onClick={() => setResult(subtract(first, second))}>
+			Subtract Numbers
+			</button>
 			{result !== null && <h2>Result: {result}</h2>}
 		</main>
 	);
